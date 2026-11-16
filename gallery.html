@@ -3,13 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Before &amp; After Gallery | Tuana Home Solutions | Dallas, TX</title>
-  <meta name="description" content="Browse Tuana Home Solutions' before and after gallery — kitchen makeovers, bathroom renovations, and full home remodeling projects in Dallas–Fort Worth, TX.">
+  <title>Remodeling Gallery | Tuana Home Solutions DFW</title>
+  <meta name="description" content="Browse kitchen, bathroom and home remodeling photos from Tuana Home Solutions. Contact us to discuss your Dallas–Fort Worth renovation.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/style.css">
   <link rel="icon" href="https://static.wixstatic.com/media/1df29c_fe2f57ca298d4d35bf0a8bcefc9378db~mv2.png" type="image/png">
+<link rel="canonical" href="https://www.tuanahomesolutions.com/gallery">
+<meta name="robots" content="index,follow">
+<meta property="og:url" content="https://www.tuanahomesolutions.com/gallery">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://www.tuanahomesolutions.com/#organization", "name": "Tuana Home Solutions", "url": "https://www.tuanahomesolutions.com/", "telephone": "+1-214-617-0969", "email": "mike@tuanahomesolutions.com", "description": "Kitchen, bathroom and full home remodeling for homeowners and real estate investors in Dallas–Fort Worth, Texas.", "areaServed": {"@type": "Place", "name": "Dallas–Fort Worth, Texas"}}, {"@type": "WebSite", "@id": "https://www.tuanahomesolutions.com/#website", "url": "https://www.tuanahomesolutions.com/", "name": "Tuana Home Solutions", "publisher": {"@id": "https://www.tuanahomesolutions.com/#organization"}}]}</script>
+<link rel="stylesheet" href="/seo-content.css">
+<meta property="og:title" content="Remodeling Gallery | Tuana Home Solutions DFW">
+<meta property="og:description" content="Browse kitchen, bathroom and home remodeling photos from Tuana Home Solutions. Contact us to discuss your Dallas–Fort Worth renovation.">
+<meta property="og:type" content="website">
 </head>
 <body>
 
@@ -26,22 +34,22 @@
         </a>
         <ul class="nav-links">
           <li><a href="/">Home</a></li>
-          <li><a href="about.html">About</a></li>
+          <li><a href="/about">About</a></li>
           <li><a href="/#services">Our Services</a></li>
-          <li><a href="gallery.html" class="active">Gallery</a></li>
+          <li><a href="/gallery" class="active">Gallery</a></li>
           <li><a href="/#contact">Contact Us</a></li>
         </ul>
         <a href="/#contact" class="btn btn-gold nav-cta">Free Consultation</a>
-        <button class="nav-hamburger" id="hamburger" aria-label="Open menu">
+        <button class="nav-hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
           <span></span><span></span><span></span>
         </button>
       </nav>
     </div>
     <div class="mobile-menu" id="mobile-menu">
       <a href="/">Home</a>
-      <a href="about.html">About</a>
+      <a href="/about">About</a>
       <a href="/#services">Our Services</a>
-      <a href="gallery.html">Gallery</a>
+      <a href="/gallery">Gallery</a>
       <a href="/#contact">Contact Us</a>
       <a href="/#contact" class="btn btn-gold">Free Consultation</a>
     </div>
@@ -197,6 +205,7 @@
       </div>
     </section>
 
+<section class="seo-band"><div class="container"><h2>Discuss a Similar Renovation</h2><p>Tell us which photos interest you, the city where your property is located and the changes you have in mind.</p><a href="/#contact" class="btn btn-gold">Request a Consultation</a></div></section>
   </main>
 
   <!-- Lightbox -->
@@ -223,27 +232,28 @@
           <h4>Quick Links</h4>
           <ul>
             <li><a href="/">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
+            <li><a href="/about">About Us</a></li>
             <li><a href="/#services">Our Services</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="/gallery">Gallery</a></li>
             <li><a href="/#contact">Contact Us</a></li>
           </ul>
         </div>
         <div class="footer-col">
           <h4>Our Services</h4>
           <ul>
-            <li><a href="/#services">Kitchen Remodeling</a></li>
-            <li><a href="/#services">Bathroom Remodeling</a></li>
-            <li><a href="/#services">Full Home Remodeling</a></li>
+            <li><a href="/kitchen-remodeling">Kitchen Remodeling</a></li>
+            <li><a href="/bathroom-remodeling">Bathroom Remodeling</a></li>
+            <li><a href="/full-home-remodeling">Full Home Remodeling</a></li>
             <li><a href="/#services">Room Additions</a></li>
             <li><a href="/#services">Water Damage Restoration</a></li>
             <li><a href="/#services">Roof Replacement</a></li>
+<li><a href="/investment-property-renovation">Investor Renovations</a></li>
           </ul>
         </div>
       </div>
       <div class="footer-bottom">
-        <p>&copy; 2024 Tuana Home Solutions. All rights reserved.</p>
-        <p>Licensed &amp; Insured | Serving Dallas–Fort Worth, TX | <a href="mailto:info@tuanahomesolutions.com">info@tuanahomesolutions.com</a></p>
+        <p>&copy; 2026 Tuana Home Solutions. All rights reserved.</p>
+        <p>Kitchen, Bath &amp; Home Remodeling | Serving Dallas–Fort Worth, TX | <a href="mailto:mike@tuanahomesolutions.com">mike@tuanahomesolutions.com</a></p>
       </div>
     </div>
   </footer>
@@ -259,6 +269,7 @@
     hamburger.addEventListener('click', () => {
       hamburger.classList.toggle('open');
       mobileMenu.classList.toggle('visible');
+      hamburger.setAttribute('aria-expanded', String(mobileMenu.classList.contains('visible')));
     });
 
     // Gallery filter
